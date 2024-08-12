@@ -1,4 +1,4 @@
-module ebpfdrop
+module github.com/tiagomelo/ebpf-drop-packets-from-ip
 
 go 1.22.1
 
