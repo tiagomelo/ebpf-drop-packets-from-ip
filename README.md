@@ -6,9 +6,9 @@ This project demonstrates how to use eBPF to drop packets from a specified IP ad
 
 ## Files
 
-- `drop.c`: The eBPF program that drops packets from a specified IP address.
-- `main.go`: The Go application that loads the eBPF program and manages the blocked IP address.
-- `Makefile`: Makefile to build and run the project.
+- [`drop.c`](drop.c): The eBPF program that drops packets from a specified IP address.
+- [`main.go`](main.go): The Go application that loads the eBPF program and manages the blocked IP address.
+- [`server.go`](server/server.go): A simple HTTP server to test access from external IPs.
 
 ## Prerequisites
 
